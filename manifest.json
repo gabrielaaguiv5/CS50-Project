@@ -30,7 +30,36 @@
     "host_permissions": [
       "https://www.google.com/*"
     ],
-    "content_security_policy": {
-        "extension_pages": "default-src 'self'"
+  "content_security_policy": {
+      "extension_pages": "default-src 'self'"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "font/AlbertSans-BlackItalic.ttf",
+        "font/AlbertSans-BoldItalic.ttf",
+        "font/AlbertSans-ExtraBoldItalic.ttf",
+        "font/AlbertSans-ExtraBoldItalic.ttf",
+        "font/AlbertSans-ExtraBoldItalic.ttf",
+        "font/AlbertSans-Italic.ttf",
+        "font/AlbertSans-LightItalic.ttf",
+        "font/AlbertSans-MediumItalic.ttf",
+        "font/AlbertSans-SemiBoldItalic.ttf",
+        "font/AlbertSans-Black.ttf",
+        "font/AlbertSans-Bold.ttf",
+        "font/AlbertSans-ExtraBold.ttf",
+        "font/AlbertSans-ExtraLight.ttf",
+        "font/AlbertSans-Light.ttf",
+        "font/AlbertSans-Medium.ttf",
+        "font/AlbertSans-Regular.ttf",
+        "font/AlbertSans-SemiBold.ttf",
+        "font/AlbertSans-Thin.ttf",
+        "font/AlbertSans-ThinItalic.ttf",
+        "font/AlbertSans-ExtraLightItalic.ttf"
+      ],
+      "matches": ["<all_urls>"]
     }
+  ]
+
 }

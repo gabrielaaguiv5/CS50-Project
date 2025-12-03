@@ -1,6 +1,29 @@
 /* Tabs Sorter by Gabriela Aguilar – Soft Neutral + Blue Theme */
 
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&display=swap');
+/* Local Albert Sans – MV3 Safe */
+@font-face {
+  font-family: "Albert Sans";
+  src: url("font/AlbertSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Albert Sans";
+  src: url("font/AlbertSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Albert Sans";
+  src: url("font/AlbertSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Albert Sans";
+  src: url("font/AlbertSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
 
 body {
     background: #E5E7EB; /* Cool Gray */
