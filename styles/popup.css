@@ -1,59 +1,63 @@
-/* Tabs Sorter by Gabriela Aguilar 2023 - Style Sheet */
+/* Tabs Sorter by Gabriela Aguilar – Cherry Blossom Bloom Theme */
 
-body
-{
-    background: #fdecef;
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: #fff0f3; /* Lavender Blush */
     min-width: 500px;
-    max-width: 100%;
-    position: relative;
-    vertical-align:middle;
-    padding: 16px;    
+    padding: 16px;
+    font-family: 'Albert Sans', sans-serif;
 }
+
+/* ----- HEADER ----- */
 
 h1 {
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 22px;
-    color: #d6336c;
-    margin-bottom: 12px;
-    font-weight: 600;
+    font-size: 24px;
+    color: #a4133c; /* Cherry Rose */
+    margin-bottom: 14px;
+    font-weight: 700;
 }
 
-p
-{
-    font-family: 'Didot LT STD';
-    color: #4a2c63;
+/* ----- PARAGRAPH + LIST ----- */
+p, ul {
     font-size: 15px;
+    color: #590d22; /* Night Bordeaux */
+    font-family: 'Albert Sans', sans-serif;
 }
 
-ul
-{
-    font-family: 'Didot LT STD';
-    color: #3b147b;
-    font-size: 15px;
+/* Remove UL padding */
+ul {
+    padding: 0;
 }
+
+/* ----- LINKS ----- */
 
 a {
-    color: #4a2c63;
+    text-decoration: none;
+    color: #800f2f; /* Dark Amaranth */
     font-weight: 500;
 }
 
 a:hover {
-    color: #6d3ea2;
+    color: #c9184a; /* Rosewood */
     text-decoration: underline;
 }
 
-li {
-    background: white;
-    padding: 10px 12px;
-    margin: 8px 0;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    list-style: none;
-}
-ul { padding: 0; }
+/* ----- LIST ITEMS (Tab cards) ----- */
 
+li {
+    background: #ffccd5; /* Pastel Petal */
+    padding: 12px 14px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    list-style: none;
+    transition: 0.2s ease;
+}
+
+/* Hover effect */
 li:hover {
-    background: #f7f0ff;
-    transform: translateY(-1px);
-    transition: 0.15s;
+    background: #ffb3c1; /* Cherry Blossom */
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
 }
