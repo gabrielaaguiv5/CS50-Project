@@ -1,9 +1,9 @@
-/* Tabs Sorter by Gabriela Aguilar – Cherry Blossom Bloom Theme */
+/* Tabs Sorter by Gabriela Aguilar – Soft Neutral + Blue Theme */
 
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&display=swap');
 
 body {
-    background: #fff0f3; /* Lavender Blush */
+    background: #E5E7EB; /* Cool Gray */
     min-width: 500px;
     padding: 16px;
     font-family: 'Albert Sans', sans-serif;
@@ -13,19 +13,20 @@ body {
 
 h1 {
     font-size: 24px;
-    color: #a4133c; /* Cherry Rose */
-    margin-bottom: 14px;
+    color: #1E3A8A; /* Navy */
+    margin-bottom: 16px;
     font-weight: 700;
 }
 
 /* ----- PARAGRAPH + LIST ----- */
+
 p, ul {
     font-size: 15px;
-    color: #590d22; /* Night Bordeaux */
+    color: #374151; /* Dark Gray */
     font-family: 'Albert Sans', sans-serif;
 }
 
-/* Remove UL padding */
+/* Reset UL */
 ul {
     padding: 0;
 }
@@ -34,30 +35,33 @@ ul {
 
 a {
     text-decoration: none;
-    color: #800f2f; /* Dark Amaranth */
+    color: #3B82F6; /* Royal Blue */
     font-weight: 500;
 }
 
 a:hover {
-    color: #c9184a; /* Rosewood */
+    color: #1E3A8A; /* Navy */
     text-decoration: underline;
 }
 
 /* ----- LIST ITEMS (Tab cards) ----- */
 
 li {
-    background: #ffccd5; /* Pastel Petal */
+    background: #FFFFFF; /* White */
     padding: 12px 14px;
     margin: 10px 0;
     border-radius: 10px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.1);
     list-style: none;
     transition: 0.2s ease;
+    border: 1px solid #d1d5db; /* Light gray border */
 }
 
 /* Hover effect */
 li:hover {
-    background: #ffb3c1; /* Cherry Blossom */
+    background: #F9FAFB; /* Very soft white */
     transform: translateY(-2px);
-    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    border-color: #93C5FD; /* Soft Blue highlight */
 }
+
