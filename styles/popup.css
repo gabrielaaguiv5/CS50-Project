@@ -2,7 +2,7 @@
 
 body
 {
-    background:blue url('/images/background.png');
+    background: #fdecef;
     min-width: 500px;
     max-width: 100%;
     position: relative;
@@ -13,7 +13,7 @@ h1
 {
     position: relative;
     font-family: 'Franklin Gothic', sans-serif;
-    color: royalblue;
+    color: #d6336c;
     font-size: 25px;
     margin-bottom: 15px;
 }
@@ -21,7 +21,7 @@ h1
 p
 {
     font-family: 'Didot LT STD';
-    color: #3b147b;
+    color: #4a2c63;
     font-size: 15px;
 }
 
@@ -40,5 +40,5 @@ a
 
 a:hover
 {
-    text-decoration: underline;
+    text-decoration: darker violet;
 }
